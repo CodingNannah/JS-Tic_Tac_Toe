@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: 100vh;
+    font-size: 30px;
+    background-color: #000;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+    background-color:rgb(33, 125, 206);
+    color: bisque;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+.gameboardback {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(33, 125, 206);
+    color: bisque;
+}
+
+#info {
+    padding: 10px;
+}
+
+#gameboard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 508px;
+    height: 500px;
+    
+} 
+
+.square {
+    width: 170px;
+    height: 166px;
+    color: bisque;
+    border: solid 2px bisque;
+    box-sizing: border-box;
+    /* to put something centered inside box: */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.o {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 15px solid blue;
+    box-sizing: border-box;
+}
+
+.x {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.x:before, .x:after {
+    /* must use content when using before & after: */
+    content: '';
+    position: absolute;
+    background-color: red;
+}
+
+.x:before {
+    left: 50%;
+    width: 30%;
+    margin-left: -15%;
+    height: 100%;
+}
+
+.x::after {
+    top: 50%;
+    height: 30%;
+    margin-top: -15%;
+    width: 100%;
+}
