@@ -9,13 +9,18 @@ ____________________________________
 
 Game Creation Notes:
 
-I changed some CSS for fun.
-In my book X's go first.
+Changes:
+More CSS for fun.
+Robust O's to match robust X's.
+Tradition: X's go first.
 I take "turns" not "go's".
 
-Challenge: Working on figuring out how to display a Cat/Draw.
+Challenge: 
+Figuring out how to display a Cat/Draw. I tried to adapt one from the last project, researched others' same issues... no solution, yet.
 
-Future Add: Play again button.
+Future Add: 
+Play again button.
+
 ____________________________________
 
 Credit & Gratitude:
